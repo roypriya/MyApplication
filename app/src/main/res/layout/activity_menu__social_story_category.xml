@@ -4,7 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".Menu_SocialStoryCategory">
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/categoryText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stories"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary2"
+        android:textSize="35dp"
+        app:fontFamily="@font/aclonica"
+        android:gravity="center_horizontal" />
 
     <ExpandableListView
         android:paddingTop="50dp"

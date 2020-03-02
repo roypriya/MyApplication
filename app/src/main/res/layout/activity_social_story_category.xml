@@ -19,7 +19,8 @@
             android:textAlignment="center"
             android:textColor="@color/colorPrimary2"
             android:textSize="35dp"
-            app:fontFamily="@font/aclonica" />
+            app:fontFamily="@font/aclonica"
+            android:gravity="center_horizontal" />
 
         <ListView
             android:id="@+id/socialStoryListView"
@@ -30,7 +31,8 @@
             android:background="#E9BFF0"
             android:dividerHeight="5dp"
             android:elevation="50dp"
-            android:textAlignment="center"></ListView>
+            android:textAlignment="center"
+            android:gravity="center_horizontal"></ListView>
 
     </RelativeLayout>
 
