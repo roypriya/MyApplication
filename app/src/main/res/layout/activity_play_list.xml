@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context="com.example.myapplication.PlayList">
+
+    <ListView
+        android:visibility="visible"
+        android:id="@+id/playList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#e17fe6"
+        android:dividerHeight="2dip"
+        android:textAlignment="center">
+
+    </ListView>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/helpText"
+        android:visibility="invisible"
+        android:outlineProvider="bounds"
+        android:textAlignment="textStart"
+        app:fontFamily="monospace"
+        android:background="#E1BEE7"
+        android:textColor="#000000"
+        android:text="@string/help"
+        android:layout_centerInParent="true"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlCompat" />
+
+</RelativeLayout>

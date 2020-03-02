@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Socio Commune</string>
+    <string name="play">PLAY</string>
+    <string name="help">Drag the respective photos into their blank space.If u get all correct click on next to load next set of options.</string>
+    <string name="play_name">Game Section</string>
+    <string name="title_activity_visit_doctor">VisitDoctor</string>
+    <string name="title_activity_hair_cut">HairCut</string>
+    <string name="title_activity_asking_questions">AskingQuestions</string>
+    <string name="title_activity_cross_road">CrossRoad</string>
+    <string name="title_activity_menu__social_story_category">Menu_SocialStoryCategory</string>
+
+</resources>

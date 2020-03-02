@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.myapplication">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/myicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/myicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".Menu_SocialStoryCategory"
+            android:label="@string/title_activity_menu__social_story_category"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar"></activity>
+        <activity
+            android:name=".CrossRoad"
+            android:label="@string/title_activity_cross_road"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity android:name=".AskingQuestions" />
+        <activity
+            android:name=".HairCut"
+            android:label="@string/title_activity_hair_cut"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
+        <activity android:name=".VisitDoctor" />
+        <activity android:name=".TakingTurn" />
+        <activity android:name=".Sharing" />
+        <activity android:name=".SummerVacation" />
+        <activity android:name=".Hitting" />
+        <activity android:name=".ControlAnger" />
+        <activity android:name=".Toucing" />
+        <activity android:name=".PersonalSpace" />
+        <activity android:name=".SchoolWork" />
+        <activity android:name=".QuietPlease" />
+        <activity android:name=".AskForHelp" />
+        <activity android:name=".PlayHideAndSeek" />
+        <activity android:name=".LearnList" />
+        <activity android:name=".LearnPlayStartActivity" />
+        <activity android:name=".HomeScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SocialStoryCategory" />
+        <activity android:name=".BirthdayActivity" />
+        <activity android:name=".PlayFriendsActivity" />
+        <activity android:name=".Brushtooth" />
+        <activity android:name=".CategoryActivity" />
+        <activity android:name=".SchoolActivity" />
+        <activity
+            android:name="learn.Learn_Activity"
+            android:label="Learn Through Images" />
+        <activity
+            android:name=".PlayList"
+            android:label="@string/play_name"
+            android:theme="@style/PlayTheme" />
+        <activity android:name="play.GameActivity" />
+        <activity android:name="createStory.CreateStoryHome" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
