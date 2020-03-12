@@ -4,12 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@drawable/bg3"
     tools:context=".Menu_SocialStoryCategory">
 
     <TextView
         android:paddingTop="30dp"
-
         android:id="@+id/categoryText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,6 +18,7 @@
         android:textSize="35dp"
         app:fontFamily="@font/aclonica"
         android:gravity="center_horizontal" />
+
 
     <ExpandableListView
         android:paddingTop="60dp"

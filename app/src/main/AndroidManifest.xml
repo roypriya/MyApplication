@@ -28,6 +28,8 @@
             android:label="@string/title_activity_hair_cut"
             android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
         <activity android:name=".VisitDoctor" />
+        <activity android:name=".Strangers" />
+        <activity android:name=".SchoolBus"/>
         <activity android:name=".TakingTurn" />
         <activity android:name=".Sharing" />
         <activity android:name=".SummerVacation" />
