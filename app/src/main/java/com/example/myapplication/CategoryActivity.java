@@ -57,7 +57,9 @@ android.support.v7.widget.GridLayout mainGrid;
                     else if(finalI1 ==2){
                         startActivity(new Intent(getApplicationContext(), CreateStoryHome.class));
                     }
-
+                    else if(finalI1==3){
+                        startActivity(new Intent(getApplicationContext(),Piano.class));
+                    }
 
                 }
                 });
