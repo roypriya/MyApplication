@@ -14,10 +14,11 @@
         android:roundIcon="@mipmap/myicon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Hygiene"></activity>
         <activity
             android:name=".Menu_SocialStoryCategory"
             android:label="@string/title_activity_menu__social_story_category"
-            android:theme="@style/AppTheme.NoActionBar.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
         <activity
             android:name=".CrossRoad"
             android:label="@string/title_activity_cross_road"
@@ -29,7 +30,7 @@
             android:theme="@style/AppTheme.NoActionBar.NoActionBar" />
         <activity android:name=".VisitDoctor" />
         <activity android:name=".Strangers" />
-        <activity android:name=".SchoolBus"/>
+        <activity android:name=".SchoolBus" />
         <activity android:name=".TakingTurn" />
         <activity android:name=".Sharing" />
         <activity android:name=".SummerVacation" />

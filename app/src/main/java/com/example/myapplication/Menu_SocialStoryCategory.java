@@ -40,6 +40,8 @@ public class Menu_SocialStoryCategory extends AppCompatActivity {
                 {
                     startActivity(new Intent(Menu_SocialStoryCategory.this,SchoolActivity.class));
                 }
+                if(name1.equals("Hygiene"))
+                    startActivity(new Intent(Menu_SocialStoryCategory.this,Hygiene.class));
                 if(name1.equals("Brushing Tooth"))
                     startActivity(new Intent(Menu_SocialStoryCategory.this,Brushtooth.class));
                 if(name1.equals("Play with Friends"))
@@ -94,8 +96,7 @@ public class Menu_SocialStoryCategory extends AppCompatActivity {
         parent.add("School");
         parent.add("Emotion");
         parent.add("Event");
-
-        map.put(parent.get(0),new ArrayList<>(Arrays.asList("School","Brushing Tooth","Play with Friends","Play Hide & Seek","Ask for help","School Work","Learn about Sharing","Cross a Road","Ride a School Bus","Interaction with Strangers")));
+        map.put(parent.get(0),new ArrayList<>(Arrays.asList("School","Brushing Tooth","Play with Friends","Play Hide & Seek","Ask for help","School Work","Learn about Sharing","Cross a Road","Ride a School Bus","Interaction with Strangers","Hygiene")));
         map.put(parent.get(1),new ArrayList<>(Arrays.asList("School","School Work","Play with Friends","Learn about Sharing","Learn about Taking Turns","Ask a question","Ride a School Bus")));
         map.put(parent.get(2),new ArrayList<>(Arrays.asList("Personal Space","Learn about Touching","Hitting is bad","Control your Anger")));
         map.put(parent.get(3),new ArrayList<>(Arrays.asList("Birthday Celebration","Summer Vacation","Visit a Doctor","Get a Haircut","Interaction with Strangers")));
