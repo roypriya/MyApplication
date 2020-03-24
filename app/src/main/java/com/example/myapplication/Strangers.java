@@ -42,24 +42,26 @@ public class Strangers extends AppCompatActivity implements TextToSpeech.OnInitL
         });
         models =new ArrayList<>();
         description = new ArrayList<>();
-        description.add("A stranger is someone I don't know");
-        description.add("A stranger can be a woman");
-        description.add("A stranger can be a man");
-        description.add("I need to stay close to my mom or dad when we go out");
-        description.add("I don't talk to strangers without mom's permission");
-        description.add("I don't take candy from strangers");
-        description.add("I don't get in a car with a stranger");
-        description.add("I don't go with strangers");
-        description.add("Is a stranger nice? I don't know");
-        description.add("A stranger might just act nice");
-        description.add("But he or she might be mean and try to hurt me");
-        description.add("Strangers can be dangerous");
-        description.add("It is okay to shout for help when someone bothers me");
-        description.add("It is okay to run from strangers who try to scare or hurt me");
-        description.add("I will tell my mom. My mom will help");
-        description.add("My mom will tell me if it is okay to talk to a stranger");
+        description.add("A stranger is someone I don't know");//1
+        //description.add("A stranger can be a woman");//2
+        description.add("A stranger can be a man or a woman");//3
+        description.add("I need to stay close to my mom or dad when we go out");//4
+        description.add("I don't talk to strangers without mom's permission");//5
+        description.add("I don't take candy from strangers");//6
+        description.add("I don't get in a car with a stranger");//7
+        description.add("I don't go with strangers");//8
+        description.add("Is a stranger nice? I don't know");//9
+        description.add("A stranger might just act nice");//10
+        description.add("But he or she might be mean and try to hurt me");//11
+        description.add("Strangers can be dangerous");//12
+        description.add("It is okay to shout for help when someone bothers me");//13
+        description.add("It is okay to run from strangers who try to scare or hurt me");//14
+        description.add("I will tell my mom. My mom will help");//15
+        description.add("My mom will tell me if it is okay to talk to a stranger");//16
 
-        Integer[] imgId={};
+        Integer[] imgId={R.drawable.s1,R.drawable.s3,R.drawable.s4,R.drawable.s5,R.drawable.s6,R.drawable.s7,R.drawable.s8,
+        R.drawable.s9, R.drawable.s10,R.drawable.s11,R.drawable.s12,R.drawable.s13,R.drawable.s14,R.drawable.s15,R.drawable
+        .s16};
         for (int i=0;i<imgId.length;i++){
             models.add(new Model(imgId[i],"",""));
         }

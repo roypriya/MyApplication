@@ -32,7 +32,7 @@ public class SchoolBus extends AppCompatActivity implements TextToSpeech.OnInitL
 
         tts=new TextToSpeech(this,this);
         tts.setSpeechRate(0.5f);
-
+        //tts.setPitch(0.7f);
         readOutButton=findViewById(R.id.btnOrder);
         readOutButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,15 +42,15 @@ public class SchoolBus extends AppCompatActivity implements TextToSpeech.OnInitL
         });
         models =new ArrayList<>();
         description = new ArrayList<>();
-        description.add("Boys and girls ride the bus to get to school");
-        description.add("It is important to be safe on the bus");
-        description.add("I will wait for the Bus. I will walk on to the bus when it arrives.");
-        description.add("I will sit in my spot and stay in my spot");
-        description.add("If I need help,I will ask the driver for help");
-        description.add("When the bus driver tells me to get off, I will walk off the bus");
-        description.add("I will see my teachers when I get off the bus");
-        description.add("I will then walk to my classroom");
-        Integer[] imgId={};
+        description.add("Boys and girls ride the bus to get to school");//1
+        description.add("It is important to be safe on the bus");//2
+        description.add("I will wait for the Bus. I will walk on to the bus when it arrives.");//3
+        description.add("I will sit in my spot and stay in my spot");//4
+        description.add("If I need help,I will ask the driver for help");//5
+        description.add("When the bus driver tells me to get off, I will walk off the bus");//6
+        description.add("I will see my teachers when I get off the bus");//7
+        description.add("I will then walk to my classroom");//8
+        Integer[] imgId={R.drawable.sb1,R.drawable.sb2,R.drawable.sb3,R.drawable.sb4,R.drawable.sb5,R.drawable.sb6,R.drawable.sb7,R.drawable.sb8};
         for (int i=0;i<imgId.length;i++){
             models.add(new Model(imgId[i],"",""));
         }
