@@ -56,7 +56,7 @@ public class SchoolActivity extends AppCompatActivity implements TextToSpeech.On
         description.add(" I will be allowed to take breaks if needed.");
         description.add("  School will be fun!");
         description.add(" I will go home at the end of the day.");
-        description.add("  I will come back to school tommorow.");
+        description.add("  I will come back to school tomorrow.");
         
         models =new ArrayList<>();
         Integer[] imgId={R.drawable.capture1,R.drawable.capture2,R.drawable.capture3,R.drawable.capture4,

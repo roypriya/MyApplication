@@ -41,15 +41,10 @@ public class SummerVacation extends AppCompatActivity implements TextToSpeech.On
         });
 
         description.add("Let's Learn about summer vacation");
-        description.add("Soon it will be summer vacation. Summer vacation is time away from\n" +
-                "school.");
-        description.add("Students are usually excited about summer vacation. It is okay to\n" +
-                "be happy about summer holidays.");
-        description.add("4\n" +
-                "The weather is usually warm and\n" +
-                "nice. When vacation is over, most students return to school.");
-        description.add("During summer I might go swimming, go to the park, go to the mall,\n" +
-                "go to the movies, play games, read books, or visit the library.");
+        description.add("Soon it will be summer vacation. Summer vacation is time away from school.");
+        description.add("Students are usually excited about summer vacation. It is okay to be happy about summer holidays.");
+        description.add("The weather is usually warm and nice. When vacation is over, most students return to school.");
+        description.add("During summer I might go swimming, go to the park, go to the mall, go to the movies, play games, read books, or visit the library.");
 
         Integer[] imgId = {
             R.drawable.summervac1,
