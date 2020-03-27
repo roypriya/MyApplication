@@ -60,7 +60,7 @@ public class PlayHideAndSeek extends AppCompatActivity implements TextToSpeech.O
         description.add("Once all my friends are found, we can play again because playing hide and seek with friends is so much fun! ");
         Integer[] imgId={R.drawable.hans1,R.drawable.hans2,R.drawable.hans3,R.drawable.hans4,R.drawable.hans5,
                 R.drawable.hans6,R.drawable.hans7,R.drawable.hans8,R.drawable.hans9,R.drawable.hans10,
-                R.drawable.hans11,R.drawable.hans12,R.drawable.hans13,R.drawable.hans14,R.drawable.hans15,R.drawable.hans16};
+                R.drawable.hans11,R.drawable.hans12,R.drawable.hans13,R.drawable.hans14,R.drawable.hans15,R.drawable.hans16a};
         for (int i=0;i<imgId.length;i++){
             models.add(new Model(imgId[i],"",""));
         }

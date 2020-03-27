@@ -62,9 +62,9 @@ public class PersonalSpace extends AppCompatActivity implements TextToSpeech.OnI
         description.add("When I talk with other kids, I\n" +
                 "should try to stand about an\n" +
                 "arm’s length away too.");
-        description.add("When I talk with other kids, I\n" +
+        /*description.add("When I talk with other kids, I\n" +
                 "should try to stand about an\n" +
-                "arm’s length away too.");
+                "arm’s length away too.");*/
         description.add("Touching other kids means\n" +
                 "getting into their personal\n" +
                 "space, too.Kids don’t like it if\n" +
@@ -84,8 +84,7 @@ public class PersonalSpace extends AppCompatActivity implements TextToSpeech.OnI
                 R.drawable.personalspace7,
                 R.drawable.personalspace8,
                 R.drawable.personalspace9,
-                R.drawable.personalspace10,
-                R.drawable.personalspace11
+                R.drawable.personalspace10
 
         };
         for (int i=0;i<imgId.length;i++){
