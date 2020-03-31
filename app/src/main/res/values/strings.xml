@@ -8,5 +8,16 @@
     <string name="title_activity_asking_questions">AskingQuestions</string>
     <string name="title_activity_cross_road">CrossRoad</string>
     <string name="title_activity_menu__social_story_category">Menu_SocialStoryCategory</string>
-
+    <string name="b">B</string>
+    <string name="j">J</string>
+    <string name="m">M</string>
+    <string name="_2">2</string>
+    <string name="q">Q</string>
+    <string name="w">W</string>
+    <string name="h">H</string>
+    <string name="n">N</string>
+    <string name="_3">3</string>
+    <string name="e">E</string>
+    <string name="r">R</string>
+    <string name="_5">5</string>
 </resources>
