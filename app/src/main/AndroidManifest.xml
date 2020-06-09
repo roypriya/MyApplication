@@ -14,7 +14,11 @@
         android:roundIcon="@mipmap/myicon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".Piano"></activity>
+        <activity android:name=".MakePurchase"></activity>
+        <activity android:name=".Packing_trip" />
+        <activity android:name=".Sick" />
+        <activity android:name=".WinOrLose" />
+        <activity android:name=".Piano" />
         <activity android:name=".Hygiene" />
         <activity
             android:name=".Menu_SocialStoryCategory"

@@ -84,7 +84,14 @@ public class Menu_SocialStoryCategory extends AppCompatActivity {
                     startActivity(new Intent(Menu_SocialStoryCategory.this,SummerVacation.class));
                 if(name1.equals("Quiet Please"))
                     startActivity(new Intent(Menu_SocialStoryCategory.this,QuietPlease.class));
-
+                if(name1.equals("Win or Lose"))
+                    startActivity(new Intent(Menu_SocialStoryCategory.this,WinOrLose.class));
+                if(name1.equals("Someone is sick"))
+                    startActivity(new Intent(Menu_SocialStoryCategory.this,Sick.class));
+                if(name1.equals("Packing for a Trip"))
+                    startActivity(new Intent(Menu_SocialStoryCategory.this,Packing_trip.class));
+                if (name1.equals("Make a Purchase"))
+                    startActivity(new Intent(Menu_SocialStoryCategory.this,MakePurchase.class));
 
                 return false;
             }
@@ -98,10 +105,10 @@ public class Menu_SocialStoryCategory extends AppCompatActivity {
         parent.add("School");
         parent.add("Emotion");
         parent.add("Event");
-        map.put(parent.get(0),new ArrayList<>(Arrays.asList("School","Brushing Tooth","Play with Friends","Play Hide & Seek","Ask for help","School Work","Learn about Sharing","Cross a Road","Ride a School Bus","Interaction with Strangers","Hygiene")));
-        map.put(parent.get(1),new ArrayList<>(Arrays.asList("School","School Work","Play with Friends","Learn about Sharing","Learn about Taking Turns","Ask a question","Ride a School Bus","Summer Vacation")));
+        map.put(parent.get(0),new ArrayList<>(Arrays.asList("School","Brushing Tooth","Play with Friends","Play Hide & Seek","Ask for help","School Work","Learn about Sharing","Cross a Road","Ride a School Bus","Interaction with Strangers","Hygiene","Make a Purchase")));
+        map.put(parent.get(1),new ArrayList<>(Arrays.asList("School","School Work","Play with Friends","Learn about Sharing","Learn about Taking Turns","Ask a question","Ride a School Bus","Summer Vacation","Win or Lose")));
         map.put(parent.get(2),new ArrayList<>(Arrays.asList("Personal Space","Learn about Touching","Hitting is bad","Control your Anger","Quiet Please")));
-        map.put(parent.get(3),new ArrayList<>(Arrays.asList("Birthday Celebration","Summer Vacation","Visit a Doctor","Get a Haircut","Interaction with Strangers")));
+        map.put(parent.get(3),new ArrayList<>(Arrays.asList("Birthday Celebration","Summer Vacation","Visit a Doctor","Get a Haircut","Interaction with Strangers","Someone is sick","Packing for a Trip","Make a Purchase")));
 
     }
 }
